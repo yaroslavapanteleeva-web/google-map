@@ -1,0 +1,23 @@
+@import "~normalize.css";
+
+@import 'libs/fonts.scss';
+@import './base/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-montserrat;
+}
+.main {
+    position: relative;
+}
+
+@import './blocks/map';
+@import './blocks/menu-hamburger';
+@import './blocks/form-map';
+@import './blocks/left-panel';
+@import './blocks/btn';
+@import './blocks/list';
+
+@import './base/media.scss';

@@ -1,0 +1,15 @@
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-weight: 700;
+    color: blue;
+    cursor: pointer;
+    &:hover {
+        color: #fff;
+        background-color: blue;
+    }
+}
